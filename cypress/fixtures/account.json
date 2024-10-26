@@ -1,0 +1,28 @@
+{
+    "name": "Test",
+    "surname": "Automation",
+    "email": "test-automation@testa.com",
+    "password": "43256775",
+    "phone": "+1 207 322 7237",
+    "birthdate": {
+        "day": "20",
+        "month": "October",
+        "year": "1999"
+    },
+    "location": {
+        "address": "Bobo Street, n. 0",
+        "country": "United States",
+        "state": "California",
+        "city": "Richmond",
+        "zipcode": "90001"
+    },
+    "card": {
+        "name": "Automation I. N. Testing",
+        "number": 2314566747,
+        "cvc": 123,
+        "expiry": {
+            "month": 10,
+            "year": 20230
+        }
+    }
+}

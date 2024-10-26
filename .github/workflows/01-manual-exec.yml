@@ -9,17 +9,8 @@
         steps:
           - uses: actions/checkout@v4
     
-        #   - name: Instalando Yarn
-        #     run: npm install -g yarn
-    
-        #   - name: Instalando dependências
-        #     run: yarn
-    
-          - name: Instalando Cypress
-            run: npm install cypress@13.5.1 --dev
-            
-          - name: Instalando Mochawesome
-            run: npm i --save-dev cypress-mochawesome-reporter
+          - name: Instalando Dependencias
+            run: npm install
     
           - name: Testes E2E (end-to-end)
             run: npx cypress run
